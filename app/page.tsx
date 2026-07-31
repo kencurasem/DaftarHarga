@@ -171,7 +171,7 @@ export default function Home() {
 
     if (!query.trim()) {
       setResult(null);
-      setError("Masukkan harga atau kode unik terlebih dahulu.");
+      setError("Masukkan jumlah atau kode unik terlebih dahulu.");
       return;
     }
 
